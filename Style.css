@@ -76,3 +76,92 @@ h1 {
      
     background-color: #f36e5f;
 }
+
+
+
+@media screen and (max-width : 900px) {
+	
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(58, 54, 120);
+}
+
+h1 {
+	color: rgb(235, 173, 59);
+	text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'monospace', 'Trebuchet MS', sans-serif;
+}
+
+.Digit {
+	
+		font-size: 69px;
+		text-align: center;
+		display: flex;
+}
+
+.txt {
+	font-size: 30px;
+	color: #fffcd6;
+}
+
+#buttons {
+	margin-top: 50px;
+}
+
+.Btn {
+    width: 74px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 100;
+}
+
+#start {
+	background-color: green;
+}
+
+#stop {
+	background-color: rgb(232, 205, 6);
+}
+
+#reset {
+	background-color: #c91400;
+}
+
+#start:hover{
+     
+     background-color: rgb(75, 232, 75);
+}
+
+
+#stop:hover{
+     
+    background-color: rgb(251, 232, 86);
+}
+
+#reset:hover{
+     
+    background-color: #f36e5f;
+}
+
+
+} 
